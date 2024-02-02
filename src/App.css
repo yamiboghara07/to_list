@@ -1,0 +1,90 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  padding: 30px 0px;
+  text-align: center;
+  background-image: url('./image/f1.webp');
+  height: 590px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App h1
+{
+  font-size: 40px;
+  font-family: lucida;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  padding-bottom: 30px;
+  color: #6c94ab;
+}
+.task
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+  margin-top: 20px;
+  color: white;
+}
+.btnn
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #6c94ab;
+  width: 300px;
+  padding: 8px 10px;
+  font-size: 16px;
+}
+.btnn button
+{
+  background-color: #6c94ab;
+  border: 1px solid #6c94ab;
+  color: white;
+  margin-left: 6px;
+  font-size: 15px;
+}
+.box input,
+.search input
+{
+  background-color: transparent !important;
+  border: 2px solid #6c94ab;
+  color: #6c94ab;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.search input
+{
+  margin-bottom: 10px;
+}
+.box
+{
+  padding-bottom: 20px;
+}
+.btn button
+{
+  background-color: #6c94ab;
+  border: 2px solid #6c94ab;
+  width: 300px;
+  color: white;
+  padding: 5px 0px;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.event button
+{
+  background-color: #6c94ab;
+  border: 2px solid #6c94ab;
+  color: white;
+  padding: 6px 10px;
+  margin: 3px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
